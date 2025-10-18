@@ -1,0 +1,46 @@
+.about{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: start;
+}
+.about1{
+  margin-left: 40px;
+}
+.about2{
+  margin-left: 40px;
+}
+.about3{
+  margin-left: 40px;
+}
+.about-us{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 40px;
+}
+.iconbackground{
+  width: 70px;
+  height: 70px;
+  background-color: darkslategray;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20%;
+  text-align: center;
+}
+.info{
+  font-size: 20px;
+}
+.obraz{
+  width: 600px;
+  height: 350px;
+}
+.obraz:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.gallery{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
